@@ -10,6 +10,8 @@ import com.example.service.UserService;
 @Service
 public class UserServiceImpl implements UserService {
 
+     private Interger a;
+
 	@Autowired
 	private UserRepository userRepository;
 
